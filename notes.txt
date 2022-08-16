@@ -1,0 +1,22 @@
+create feature module for login register employee dashboard
+create login service containing isloggedin, username = admin, pwd=admin
+
+in app.component.html
+write *ngif condition to check isloggedin variable
+
+
+___________-
+ng add appname
+update app.component.html
+update index.html- by adding for awesome,icons and bootstrap links
+add bootstrap - ng add @ng-bootstrap/ng-bootstrap
+add angular material - ng add @angular/material
+
+update line no 25/26 in angular.json as follows
+
+ "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "src/styles.css"
+            ],
+
